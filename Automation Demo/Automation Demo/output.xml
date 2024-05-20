@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.3 on win32)" generated="2024-05-17T23:40:52.376728" rpa="false" schemaversion="5">
+<suite id="s1" name="002 Cart page" source="e:\Demo Project 1\Automation Demo\Tests\Product Page\002_Cart_page.robot">
+<test id="s1-t1" name="Click_on_cart" line="15">
+<kw name="Test 2" owner="Test">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-05-17T23:40:52.612075" level="INFO">${var1} = 23</msg>
+<var>${var1}</var>
+<arg>23</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-05-17T23:40:52.611078" elapsed="0.000997"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-05-17T23:40:52.612075" level="INFO">${var2} = 25</msg>
+<var>${var2}</var>
+<arg>25</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-05-17T23:40:52.612075" elapsed="0.000996"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-05-17T23:40:52.613071" level="INFO">${var 3} = ['aditya', 'Madhav']</msg>
+<var>${var 3}</var>
+<arg>${list1}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-05-17T23:40:52.613071" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-05-17T23:40:52.613071" level="INFO">${total} = 48</msg>
+<var>${total}</var>
+<arg>${var1}+${var2}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-05-17T23:40:52.613071" elapsed="0.000998"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${total}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-17T23:40:52.614888" elapsed="0.000993"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${list1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-17T23:40:52.617440" elapsed="0.000984"/>
+</kw>
+<status status="PASS" start="2024-05-17T23:40:52.609868" elapsed="0.008556"/>
+</kw>
+<status status="PASS" start="2024-05-17T23:40:52.609370" elapsed="0.010051"/>
+</test>
+<status status="PASS" start="2024-05-17T23:40:52.381711" elapsed="0.239133"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="002 Cart page">002 Cart page</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-05-17T23:40:52.593464" level="ERROR">Error in file 'e:\Demo Project 1\Automation Demo\Tests\Product Page\002_Cart_page.robot' on line 7: Error in file 'e:\Demo Project 1\Automation Demo\Tests\Product Page\001_Product_page_view.robot' on line 15: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>
